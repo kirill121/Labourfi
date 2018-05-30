@@ -702,6 +702,7 @@ div#chooseEmployee {
     position: static;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-repeat: no-repeat;
   }
 }
 
