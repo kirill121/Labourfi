@@ -8,6 +8,7 @@ const LocalStrategy = require('passport-local');
 
 const localOptions = { usernameField: 'email' };
 const localLogin = new LocalStrategy(localOptions, function(email, password, done){
+	var email = email[0].toLowerCase() + email.substring(1);
 	Employer.findOne({ email: email }, function(err, employer){
 		if(err) {
 			return done(err);

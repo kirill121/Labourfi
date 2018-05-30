@@ -68,7 +68,7 @@ module.exports = {
 	employerSignup: function(req, res, next) {
 		const firstName = req.body.name;
 		const lastName = req.body.surname;
-		const email = req.body.email;
+		const email = req.body.email[0].toLowerCase() + req.body.email.substring(1);
 		const password = req.body.password;
 		const companyName = req.body.companyName;
 
@@ -120,7 +120,7 @@ module.exports = {
 		const firstName = req.body.name;
 		const lastName = req.body.surname;
 		const telephoneNo = req.body.telephone;
-		const email = req.body.email;
+		const email = req.body.email[0].toLowerCase() + req.body.email.substring(1);
 		const password = req.body.password;
 		const day = req.body.Day;
 		const month = req.body.Month;
