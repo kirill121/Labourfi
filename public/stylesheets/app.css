@@ -314,6 +314,7 @@ div a.buttons {
 @media screen and (max-width: 800px) {
   #chooseEmployee {
     flex-direction: column;
+    margin-left: 80px;
     margin-top: 0px;
     padding: 0px;
   }
@@ -505,9 +506,9 @@ div a.buttons {
   margin-top: 330px;
 }
 
-#chooseEmployee {
+div#chooseEmployee {
   display: flex;
-  margin-top: 350px;
+  margin-top: 20px;
   font-family: 'Libre Baskerville', sans-serif;
   color: #F7FE27;
 }
@@ -893,7 +894,6 @@ div a.buttons {
 
 [class*="col-"] {
     float: left;
-    border: 1px solid red;
 }
 
 .row::after {
