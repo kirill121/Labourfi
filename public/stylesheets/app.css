@@ -699,7 +699,7 @@ div#chooseEmployee {
     height: auto;
     background-size: cover;
     z-index: -1;
-    position: static;
+    position: relative;
     overflow-y: scroll;
     overflow-x: hidden;
     background-repeat: no-repeat;
