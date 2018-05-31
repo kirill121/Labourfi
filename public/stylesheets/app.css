@@ -571,7 +571,6 @@ div#chooseEmployee {
     position: relative;
     overflow-y: scroll;
     overflow-x: hidden;
-    background-repeat: no-repeat;
   }
 }
 
@@ -696,14 +695,13 @@ div#chooseEmployee {
     background: url(labourfibackgroundEdited.jpg);
     top: 0;
     left: 0;
-    width: 600;
-    height: 600;
+    width: auto;
+    height: auto;
     background-size: cover;
     z-index: -1;
     position: relative;
     overflow-y: scroll;
     overflow-x: hidden;
-    background-repeat: no-repeat;
   }
 }
 
