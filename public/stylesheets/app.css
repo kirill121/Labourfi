@@ -571,6 +571,7 @@ div#chooseEmployee {
     position: relative;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-repeat: no-repeat;
   }
 }
 
@@ -702,6 +703,7 @@ div#chooseEmployee {
     position: relative;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-repeat: no-repeat;
   }
 }
 
