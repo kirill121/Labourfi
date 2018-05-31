@@ -696,8 +696,8 @@ div#chooseEmployee {
     background: url(labourfibackgroundEdited.jpg);
     top: 0;
     left: 0;
-    width: auto;
-    height: auto;
+    width: 600;
+    height: 600;
     background-size: cover;
     z-index: -1;
     position: relative;
